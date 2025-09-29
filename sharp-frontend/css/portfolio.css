@@ -1,0 +1,68 @@
+.portfolio-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.portfolio-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.portfolio-card {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.portfolio-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.portfolio-card a {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.portfolio-card a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-card h6 {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #555;
+}
+/* ------------------------
+   Navbar (consistente)
+------------------------ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6a0dad; /* roxo Sharp */;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #fff;
+  text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}

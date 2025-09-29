@@ -77,3 +77,4 @@ export function initRouter() {
   window.addEventListener('hashchange', navigate);
   navigate();
 }
+

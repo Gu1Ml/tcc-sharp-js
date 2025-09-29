@@ -1,5 +1,3 @@
-// /js/core/store.js
-
 export const store = {
   user: {
     id: 1,

@@ -1,5 +1,3 @@
-// /js/components/postCard.js
-
 /**
  * Cria um card de post
  * @param {Object} post - Objeto com dados do post
